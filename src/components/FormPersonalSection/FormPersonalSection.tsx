@@ -30,15 +30,15 @@ function FormPersonalSection({ updatePersonalDetails }: FormPersonalSectionProps
     <section>
       <fieldset>
         <legend>Personal</legend>
-        <label htmlFor="first-name">
+        <label className="form--label" htmlFor="first-name">
           First name
           <input type="input" id="first-name" onChange={changeHandler} />
         </label>
-        <label htmlFor="last-name">
+        <label className="form--label" htmlFor="last-name">
           Last name
           <input type="input" id="last-name" onChange={changeHandler} />
         </label>
-        <label htmlFor="address">
+        <label className="form--label" htmlFor="address">
           Address
           <input type="input" id="address" onChange={changeHandler} />
         </label>

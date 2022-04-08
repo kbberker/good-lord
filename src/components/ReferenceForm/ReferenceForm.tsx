@@ -33,10 +33,10 @@ function ReferenceForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="reference-form">
       <FormPersonalSection updatePersonalDetails={setPersonalDetails} />
       <FormEmployerSection updateEmployerDetails={setEmployerDetails} />
-      <section>
+      <section className="form--button-section">
         <button type="button">cancel</button>
         <button type="submit">Submit</button>
       </section>

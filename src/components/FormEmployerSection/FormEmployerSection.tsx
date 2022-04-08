@@ -31,15 +31,15 @@ function FormEmployerSection({ updateEmployerDetails }: FormPersonalSectionProps
     <section>
       <fieldset>
         <legend>Employer</legend>
-        <label htmlFor="employer-name">
+        <label className="form--label" htmlFor="employer-name">
           Employer name
           <input type="input" id="employer-name" onChange={changeHandler} />
         </label>
-        <label htmlFor="employment-start-date">
+        <label className="form--label" htmlFor="employment-start-date">
           Employment start date
           <input type="input" id="employment-start-date" onChange={changeHandler} />
         </label>
-        <label htmlFor="employment-end-date">
+        <label className="form--label" htmlFor="employment-end-date">
           Employment end date
           <input type="input" id="employment-end-date" onChange={changeHandler} />
         </label>
